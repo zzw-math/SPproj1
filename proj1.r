@@ -2,7 +2,18 @@
 ## Wenzheng Zhang S2310185
 ## Tianqi Dai S2302524
 
-## Contribution
+## Contributions: This file is group project 1 from Statistical Programming Group 1. 
+## When project 1 was released,we discussed our opinions about the project and generalized 
+## a guideline of our main idea and instructions for coding we would use. Ziwen, as our group leader, 
+## allocated the schedule of the group discussion. We gathered after working from home and spoke about our own opinions.
+## After making sure the questions are perfectly solved and everyone fully understands the command, 
+## we put our work together. We use Tianqi’s step3 and step4, Wenzheng’s step5 and step6, 
+## and Ziwen’s step7 and step8. For steps 9 and 10, we asked our questions about the ambiguous part to the lecturer. 
+## We proposed our suggestions for the coding procedure and Ziwen decided on the most efficient and effective version. 
+## After finishing the code, Tianqi tested the code and spotted some misunderstandings in the instruction, and we fixed them together. 
+## Wenzheng wrote a rough note to explain every command, and we wrote the final comments together.
+## Ziwen always has so many outstanding and creative ideas, he provided the team member with support and always inspire the team to attempt further and deeper. 
+## This group project 1 was finished with good communication and collaborations and uploaded to Github and Learn on 06/10/2022
 
 
 ####################################################################
@@ -39,7 +50,7 @@ e <- match(a, b) ## find the index of which element in b each element of a corre
 fre <- tabulate(e) ## calculate the frequency of every unique word in a
 thre_num <- sort(fre, decreasing=T)[500] ## arrange the frequency vector to a decreasing order to find the threshold number
 b <- b[which(fre>=thre_num)] ## output about 500 most common words, store in vector b
-
+## step 7
 ## generate T array
 e <- match(a, b) ## find the index of which element in b each element of a corresponds to
 t <- cbind(c(NA,NA,e),c(NA,e,NA),c(e,NA,NA)) ## combine 3 vectors, each vector followed by the same vector shifted by one place
